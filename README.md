@@ -10,8 +10,7 @@
 - Shadow movement showing where the piece will land, aiding in decision-making.
 - Sweeper blocks that clear the line they land in.
 - Bomb blocks that clear neighboring blocks when they land.
-- Bonus points for clearing lines made up of the same color blocks, calculated by the formula: `10 * N * N`, where `N = level + 1`.
-- Ability to pause and resume the game during gameplay.
+- Bonus points for clearing lines made up of the same color blocks.
 - Option to restart or quit the game after a game over.
 
 ## Technology Used
