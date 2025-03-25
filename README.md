@@ -32,12 +32,12 @@ sudo apt install libsdl2-dev libsdl2-ttf-dev build-essential
 
 #### 2. Clone the repository  
 ```sh
-git clone https://github.com/greenbinjack/pirates-vs-predators.git
-cd pirate-vs-predators
+git clone https://github.com/greenbinjack/tetris-remastered.git
+cd tetris-remastered
 ```
 
 #### 3. Compile and Run the Game
 ```sh
-g++ *.cpp -o game -lsfml-graphics -lsfml-window -lsfml-system
+gcc -g main.c -o game -lSDL2 -lSDL2_ttf
 ./game
 ```
