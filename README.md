@@ -15,16 +15,14 @@
 - Option to restart or quit the game after a game over.
 
 ## Technology Used
-- **Language**: C
-- **Libraries and Frameworks**: 
+#### Language: C
+#### Libraries and Frameworks: 
   - **SDL2**: Used for rendering graphics, handling window management, and processing user inputs.
   - **SDL2_ttf**: Used to render TrueType fonts for displaying in-game text such as score, level, and instructions.
 
 ## Installation & Setup (Linux)
 
 #### 1. Install SDL2 and SDL2_ttf
-To compile and run the game, you will first need to install the necessary libraries, SDL2 and SDL2_ttf.
-
 ```sh
 sudo apt update
 sudo apt install libsdl2-dev libsdl2-ttf-dev build-essential
